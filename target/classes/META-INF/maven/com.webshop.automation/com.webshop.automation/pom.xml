@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.webshop.automation</groupId>
+	<artifactId>com.webshop.automation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Webshop - Automation</name>
+	<description>Selenium Framework</description>
+
+	<!-- Manage Dependencies version here -->
+	<properties>
+		<selenium.version>4.22.0</selenium.version>
+		<testng.version>7.10.2</testng.version>
+		<poi.version>5.3.0</poi.version>
+		<poi-ooxml.version>5.3.0</poi-ooxml.version>
+		<extentreports.version>4.0.9</extentreports.version>
+		<commons-io.version>2.16.1</commons-io.version>
+		<java.version>22.0.1</java.version>
+		<maven.compiler.source>22.0.1</maven.compiler.source>
+		<maven.compiler.target>22.0.1</maven.compiler.target>
+
+	</properties>
+
+	<!-- Framework Required Dependencies -->
+	<dependencies>
+
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi-ooxml.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>${extentreports.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+
+</project>
